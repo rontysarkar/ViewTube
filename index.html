@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViewTube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d6b9f7048d.js" crossorigin="anonymous"></script>
+</head>
+<body class="container mx-auto">
+    <header>
+        <div class="navbar bg-base-100 mt-10">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                
+              </div>
+              <i class="fa-solid fa-circle-play text-3xl text-red-600 mr-3"></i>
+              <h1 class="font-extrabold text-2xl">ViewTube</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <button class="btn">Sort by View</button>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-red-600 text-white px-8">Blog</a>
+            </div>
+          </div>
+          <hr class="my-6 ">
+           
+    </header>
+    <main>
+        <div id="btn-container" class="flex justify-center gap-8 ">
+            <!-- <button class="btn px-6 border-none">Music</button> -->
+        </div> 
+        <!-- video card  -->
+        <div id="video-card-container" class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
+            <!-- <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <div class="flex gap-2 mt-4 px-2">
+                  <div>
+                    <div class="avatar">
+                      <div class="w-10 rounded-full">
+                        <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h2 class="card-title ">Building a Winning UX Strategy Using the Kano Model</h2>
+                    <div class="flex gap-4 my-3">
+                      <p class="text-xl">Awlad Hossain</p>
+                      <img class="size-6" src="image/blue.png" alt="">
+                    </div>
+                    <p id="views" class="text-xl pb-5">91K views</p>
+
+                  </div>
+                  
+                </div>
+              </div> -->
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
