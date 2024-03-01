@@ -71,7 +71,7 @@ const videoCardInfo = (category_id ,sortBtns) =>{
                 }
                 const div = document.createElement('div');
                 div.innerHTML = `
-                <div class="card card-compact w-[90%] bg-base-100 shadow-xl">
+                <div class="card card-compact w-[350px] h-[300px] bg-base-100 shadow-xl">
                 <figure><img src="${cardInfo.thumbnail}" alt="Shoes" /></figure>
                 <div class="flex gap-2 mt-4 px-2">
                   <div>
