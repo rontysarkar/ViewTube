@@ -22,7 +22,7 @@
               <h1 class="font-extrabold text-2xl">ViewTube</h1>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <button class="btn">Sort by View</button>
+              <button onclick="sortBtn()" class="btn">Sort by View</button>
             </div>
             <div class="navbar-end">
               <a class="btn bg-red-600 text-white px-8">Blog</a>
@@ -36,7 +36,7 @@
             <!-- <button class="btn px-6 border-none">Music</button> -->
         </div> 
         <!-- video card  -->
-        <div id="video-card-container" class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
+        <div id="video-card-container" class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center ">
             <!-- <div class="card card-compact w-96 bg-base-100 shadow-xl">
                 <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                 <div class="flex gap-2 mt-4 px-2">
@@ -59,6 +59,13 @@
                   
                 </div>
               </div> -->
+        </div>
+        <div id="erro-element" class="min-h-screen  hidden">
+          
+            <img class="mx-auto mt-44" src="image/Icon.png" alt="">
+           <h1 class="font-extrabold text-3xl text-center pt-8 ">Oops!! Sorry, There is no content here</h1>
+          
+
         </div>
     </main>
     <footer>
